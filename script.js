@@ -108,13 +108,13 @@ function generaNumeriCasuali(quantiNumeri, min, max) {
   return numeriCasuali;
 }
 function altrecartelle() {
-    var numeroCopieInput = document.getElementById('numeroCopie');
-    var numeroCopie = parseInt(numeroCopieInput.value);
+    let numeroCopieInput = document.getElementById('numeroCopie');
+    let numeroCopie = parseInt(numeroCopieInput.value);
   
-    var contenitoreCopieTabella = document.getElementById('contenitoreCopieTabella');
+    let contenitoreCopieTabella = document.getElementById('contenitoreCopieTabella');
     contenitoreCopieTabella.innerHTML = '';
   
-    for (var i = 0; i < numeroCopie; i++) {
+    for (let i = 0; i < numeroCopie; i++) {
       
       const tabellonePiccolo = document.createElement('table');
       tabellonePiccolo.setAttribute('border', '1');
