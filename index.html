@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Tombola e Smorfia</h1>
+    <div id="contenitore-tabellone"></div>
+    <div class="button" id="contenitore-bottone"></div>
+    <div id="contenitore-tabellone-piccolo"></div>
+    <div id="contenitoreCopieTabella"></div>
+
+    <h2>Numero Estratto</h2>
+    <p id="scritta-numero"></p>
+
+    <label for="numeroCopie">Numero di copie:</label>
+    <input type="number" id="numeroCopie" min="1" max="10" />
+    <button onclick="creaCopieTabella()">Crea copie</button>
+
+    <script src="script.js"></script>
+    <script src="tombola.js"></script>
+  </body>
+</html>

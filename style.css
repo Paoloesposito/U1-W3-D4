@@ -1,0 +1,22 @@
+.evidenziata {
+  background-color: black;
+  color: white;
+}
+td {
+  text-align: center;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+}
+table {
+  display: table;
+  border-collapse: inherit;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 10px;
+  border-color: black;
+  background-color: gray;
+}
+div {
+  display: inline-block;
+}
